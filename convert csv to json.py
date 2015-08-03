@@ -20,8 +20,3 @@ for row in reader:
   json.dump(d, jsonfile)
 
 jsonfile.write("]")
-'''
-surround the whole file with []
-add '{"fields":' to the start of each line
-add '},"model": "chemdemo.chemical","pk": ###},' to the end of each line where ### is a unique number
-'''
